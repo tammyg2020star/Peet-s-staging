@@ -36,7 +36,6 @@ public class Coffeepagetest extends testbase
 	public void searchcoffeitem() throws InterruptedException 
 	{
 		coffee.searchitem();
-		
 	}
 	
 	@Test(priority=2)

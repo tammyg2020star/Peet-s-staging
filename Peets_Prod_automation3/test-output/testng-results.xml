@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-15T17:34:56 IST" name="Peets regression test suite" finished-at="2020-10-15T17:40:36 IST" duration-ms="340081">
+    <groups>
+    </groups>
+    <test started-at="2020-10-15T17:34:56 IST" name="Peets staging Automation" finished-at="2020-10-15T17:40:36 IST" duration-ms="340081">
+      <class name="com.qa.testcases.Homepagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:36:19 IST" name="setup" finished-at="2020-10-15T17:36:29 IST" duration-ms="9903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="coffeelinktest()[pri:1, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:36:29 IST" name="coffeelinktest" finished-at="2020-10-15T17:36:29 IST" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coffeelinktest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:36:29 IST" name="teardown" finished-at="2020-10-15T17:36:30 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:36:30 IST" name="setup" finished-at="2020-10-15T17:36:40 IST" duration-ms="9855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Hoveronsubscriptionsheaderlinkclick()[pri:2, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:36:40 IST" name="Hoveronsubscriptionsheaderlinkclick" finished-at="2020-10-15T17:36:49 IST" duration-ms="8947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hoveronsubscriptionsheaderlinkclick -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:36:49 IST" name="teardown" finished-at="2020-10-15T17:36:50 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:36:50 IST" name="setup" finished-at="2020-10-15T17:37:00 IST" duration-ms="10239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bestsllerlinkvalidation()[pri:3, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:00 IST" name="bestsllerlinkvalidation" finished-at="2020-10-15T17:37:03 IST" duration-ms="3251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bestsllerlinkvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:03 IST" name="teardown" finished-at="2020-10-15T17:37:04 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:04 IST" name="setup" finished-at="2020-10-15T17:37:13 IST" duration-ms="9610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatecoffeelinks()[pri:4, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:13 IST" name="validatecoffeelinks" finished-at="2020-10-15T17:37:14 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecoffeelinks -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:14 IST" name="teardown" finished-at="2020-10-15T17:37:15 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:15 IST" name="setup" finished-at="2020-10-15T17:37:25 IST" duration-ms="9993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatetealinks()[pri:5, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:25 IST" name="validatetealinks" finished-at="2020-10-15T17:37:27 IST" duration-ms="2118" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //a[@class='nav__link' and contains(text(),'Pu'er') and ancestor::li[@class='nav__column-item']] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@class='nav__link' and contains(text(),'Pu'er') and ancestor::li[@class='nav__column-item']]' is not a valid XPath expression.
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-QSM3Q2F', ip: '192.168.43.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\THIMME~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57677}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 06dc0986815db2da5c9f67591a0da5b0
+*** Element info: {Using=xpath, value=//a[@class='nav__link' and contains(text(),'Pu'er') and ancestor::li[@class='nav__column-item']]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //a[@class='nav__link' and contains(text(),'Pu'er') and ancestor::li[@class='nav__column-item']] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//a[@class='nav__link' and contains(text(),'Pu'er') and ancestor::li[@class='nav__column-item']]' is not a valid XPath expression.
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-QSM3Q2F', ip: '192.168.43.129', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\THIMME~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57677}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 06dc0986815db2da5c9f67591a0da5b0
+*** Element info: {Using=xpath, value=//a[@class='nav__link' and contains(text(),'Pu'er') and ancestor::li[@class='nav__column-item']]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
+at com.crm.qa.pages.Homepage.verifytea_links_present(Homepage.java:199)
+at com.qa.testcases.Homepagetest.validatetealinks(Homepagetest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetealinks -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:27 IST" name="teardown" finished-at="2020-10-15T17:37:27 IST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:27 IST" name="setup" finished-at="2020-10-15T17:37:38 IST" duration-ms="10636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatevisituslinks()[pri:6, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:38 IST" name="validatevisituslinks" finished-at="2020-10-15T17:37:38 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatevisituslinks -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:38 IST" name="teardown" finished-at="2020-10-15T17:37:39 IST" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:39 IST" name="setup" finished-at="2020-10-15T17:37:49 IST" duration-ms="10651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatelearnmorelinks()[pri:7, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:49 IST" name="validatelearnmorelinks" finished-at="2020-10-15T17:37:50 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelearnmorelinks -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.Homepagetest@20d28811]" started-at="2020-10-15T17:37:50 IST" name="teardown" finished-at="2020-10-15T17:37:50 IST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.Homepagetest -->
+      <class name="com.qa.testcases.seachpagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.seachpagetest@3967e60c]" started-at="2020-10-15T17:37:50 IST" name="setup" finished-at="2020-10-15T17:38:01 IST" duration-ms="10448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="existingusercheckoutvalidation()[pri:1, instance:com.qa.testcases.seachpagetest@3967e60c]" started-at="2020-10-15T17:38:01 IST" name="existingusercheckoutvalidation" finished-at="2020-10-15T17:39:29 IST" duration-ms="87853" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at org.openqa.selenium.support.events.EventFiringWebDriver.extractInterfaces(EventFiringWebDriver.java:120)
+at org.openqa.selenium.support.events.EventFiringWebDriver.access$300(EventFiringWebDriver.java:69)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.<init>(EventFiringWebDriver.java:397)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.<init>(EventFiringWebDriver.java:389)
+at org.openqa.selenium.support.events.EventFiringWebDriver.createWebElement(EventFiringWebDriver.java:327)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:196)
+at com.crm.qa.pages.Searchpage.registerusercheckout(Searchpage.java:217)
+at com.qa.testcases.seachpagetest.existingusercheckoutvalidation(seachpagetest.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existingusercheckoutvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.seachpagetest@3967e60c]" started-at="2020-10-15T17:39:29 IST" name="teardown" finished-at="2020-10-15T17:39:29 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.seachpagetest@3967e60c]" started-at="2020-10-15T17:39:29 IST" name="setup" finished-at="2020-10-15T17:39:39 IST" duration-ms="10047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="guestcheckoutvalidation()[pri:2, instance:com.qa.testcases.seachpagetest@3967e60c]" started-at="2020-10-15T17:39:39 IST" name="guestcheckoutvalidation" finished-at="2020-10-15T17:40:36 IST" duration-ms="56236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestcheckoutvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.seachpagetest@3967e60c]" started-at="2020-10-15T17:40:36 IST" name="teardown" finished-at="2020-10-15T17:40:36 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.seachpagetest -->
+      <class name="com.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:34:56 IST" name="setup" finished-at="2020-10-15T17:35:15 IST" duration-ms="19052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginpagetitletest()[pri:1, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:35:15 IST" name="loginpagetitletest" finished-at="2020-10-15T17:35:15 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitletest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:35:15 IST" name="teardown" finished-at="2020-10-15T17:35:16 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:35:16 IST" name="setup" finished-at="2020-10-15T17:35:29 IST" duration-ms="13064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="crmlogotest()[pri:2, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:35:29 IST" name="crmlogotest" finished-at="2020-10-15T17:35:29 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crmlogotest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:35:29 IST" name="teardown" finished-at="2020-10-15T17:35:30 IST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:35:30 IST" name="setup" finished-at="2020-10-15T17:35:41 IST" duration-ms="11027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createaccountcheck()[pri:3, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:35:41 IST" name="createaccountcheck" finished-at="2020-10-15T17:35:59 IST" duration-ms="17855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccountcheck -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:35:59 IST" name="teardown" finished-at="2020-10-15T17:35:59 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:35:59 IST" name="setup" finished-at="2020-10-15T17:36:13 IST" duration-ms="13530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:3, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:36:13 IST" name="logintest" finished-at="2020-10-15T17:36:18 IST" duration-ms="5683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.qa.testcases.LoginPageTest@3cc2931c]" started-at="2020-10-15T17:36:18 IST" name="teardown" finished-at="2020-10-15T17:36:19 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.testcases.LoginPageTest -->
+    </test> <!-- Peets staging Automation -->
+  </suite> <!-- Peets regression test suite -->
+</testng-results>
